@@ -1,26 +1,28 @@
 {
     "compilerOptions": {
-        "target": "es6",
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "jsx": "react",
-        "outDir": "build",
+	"module": "commonjs",
+    	"strict": true,
+    	"emitDecoratorMetadata": true,
+"allowSyntheticDefaultImports": true,
+    	"experimentalDecorators": true,
+    	"jsx": "react-native",
+    	"lib": [
+    	  "dom",
+    	  "es5",
+    	  "es6",
+    	  "scripthost"
+   	 ],
+    	"target": "es5",
+    	"outDir": "build",
         "rootDir": "src",
-        "allowSyntheticDefaultImports": true,
-        "noImplicitAny": true,
-        "experimentalDecorators": true,
-        "preserveConstEnums": true,
-        "sourceMap": true,
-        "strictNullChecks": true,
-        "declaration": true
+    	"sourceMap": true
     },
-    "filesGlob": [
-        "src/**/*.ts",
-        "src/**/*.tsx"
-    ],
     "exclude": [
         "build",
         "node_modules"
     ],
-    "compileOnSave": false
+    "filesGlob": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ]
 }

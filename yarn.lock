@@ -1873,6 +1873,10 @@ ts-npm-lint@^0.1.0:
     chalk "^1.1.1"
     glob "^6.0.1"
 
+tslib@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.0.tgz#e37a86fda8cbbaf23a057f473c9f4dc64e5fc2e8"
+
 tslint@^4.4.2:
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/tslint/-/tslint-4.5.1.tgz#05356871bef23a434906734006fc188336ba824b"
